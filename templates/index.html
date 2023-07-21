@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+
+  <body>
+
+    <div class="container1">
+	
+        <br>
+        <div class="row">	
+            Logged in : <strong>{{session.name}} | <a href="{{ url_for('logout') }}"> Logout</a>
+        </div>
+    
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h3 class="mt-5" style="color: red;">Live Streaming</h3>
+                <img src="{{ url_for('video_feed') }}" width="50%">
+            </div>
+        </div>
+    </div>
+    </body>
+<style>
+    .container{
+        margin: 20 auto;
+        text-align: center;
+    }
+</style>
+
+
+</html>
