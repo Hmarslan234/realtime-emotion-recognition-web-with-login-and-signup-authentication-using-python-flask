@@ -1,0 +1,7 @@
+pip install flask
+pip install numpy
+pip install matplotlib
+pip install opencv-python
+pip install flask_mysqldb
+pip install urllib
+pip install tensorflow
